@@ -1,0 +1,108 @@
+* {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    font-family: Averia Libre;
+}
+
+body {
+    background: #372775;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+}
+
+
+#logo-title {
+    color: #FFF;
+    font-size: 40px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#sair {
+    color: #3F92C5;
+    text-align: center;
+    font-family: Averia Libre;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+h1 {
+    color: white;
+    font-size: 3vw;
+}
+
+#avaliacao-container {
+    margin-top: 100px;
+    display: flex;
+    padding: 0 10vw;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10vw;
+    cursor: pointer;
+}
+
+.avaliacao-img{
+    width: 8vw;
+}
+
+.avaliacao-title{
+    color: white;
+    font-size: 2.5vw;
+}
+
+#redirecionamento-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 40px;
+}
+
+.message{
+    color: #888;
+}
+
+#link{
+    color: #6994FE;
+}

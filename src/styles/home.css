@@ -1,0 +1,149 @@
+* {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    font-family: Averia Libre;
+}
+
+body {
+    background: #372775;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+
+#logo-title {
+    color: #FFF;
+    font-size: 40px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nova-pesquisa {
+    width: 154px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #37BD6D;
+    background: #49B976;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#sair {
+    color: #3F92C5;
+    text-align: center;
+    font-family: Averia Libre;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8vh;
+}
+
+#pesquisa-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    width: 95%;
+    height: 36px;
+    padding: 4px 8px;
+}
+
+#pesquisa-input {
+    text-align: left;
+    border: none;
+    outline: none;
+    height: 90%;
+    width: 100%;
+    font-size: 20px;
+}
+
+#pesquisa-icon {
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}
+
+#content {
+    display: flex;
+    gap: 3vw;
+    width: 96%;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+
+
+#content::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+#content::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+#content::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+#content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.card {
+    border-radius: 10px;
+    background: #FFF;
+    min-width: 17vw;
+    min-height: 31vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-image {
+    width: 8vw;
+}
+
+.card-title {
+    color: #3F92C5;
+    font-size: 2vw;
+    padding: 0;
+    margin: 0;
+}
+
+.card-date {
+    color: #8B8B8B;
+}
