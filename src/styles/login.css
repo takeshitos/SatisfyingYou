@@ -1,0 +1,11 @@
+body {
+    background: #372775;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+}
