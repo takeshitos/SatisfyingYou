@@ -9,3 +9,127 @@ header {
     justify-content: space-between;
     padding: 2% 3%;
 }
+
+main{
+    margin-top: 15px;
+}
+#main-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-box{
+    text-align: center;
+    box-sizing: border-box;
+    width: 488px;
+    height: 455px;
+    left: 293px;
+    top: 121px;
+    border: 1px solid #737373;
+    border-radius: 15px;
+}
+
+#logo-title {
+    color: #FFF;
+    font-size: 40px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.login-info {
+    color: #3F92C5;
+    font-size: 18px;
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    width: 424px;
+    height: 39px;
+    left: 327px;
+    top: 261px;
+    background: #FFFFFF;
+}
+
+.rec-password {
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #3F92C5;
+}
+
+#main-rotulo{
+    text-align: center;
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 27px;
+}
+
+.criar-conta{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #3F92C5;
+}
+
+.botao-entrar {
+    color:#FFF;
+    box-sizing: border-box;
+    width: 134px;
+    height: 40px;
+    left: 618px;
+    top: 494px;
+    background: #49B976;
+    border: 1px solid #37BD6D;
+    border-radius: 10px;
+}
+
+#text-invalido{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #FD7979;
+}
+
+#rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}

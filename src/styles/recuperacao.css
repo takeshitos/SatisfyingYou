@@ -9,3 +9,14 @@ header {
     justify-content: space-between;
     padding: 2% 3%;
 }
+
+#logo-title {
+    color: #FFF;
+    font-size: 40px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
