@@ -1,0 +1,157 @@
+* {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    font-family: Averia Libre;
+}
+
+body {
+    background: #372775;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+
+#logo-title {
+    color: #FFF;
+    font-size: 40px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#sair {
+    color: #3F92C5;
+    text-align: center;
+    font-family: Averia Libre;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+:root {
+    --chart-size: 50vh;
+    --slice-color-1: #f1ce7e;
+    --slice-color-2: #6994fe;
+    --slice-color-3: #5fcda4;
+    --slice-color-4: #ea7288;
+    --slice-color-5: #53d8d8;
+    --slice-percentage-1: 20;
+    --slice-percentage-2: 20;
+    --slice-percentage-3: 20;
+    --slice-percentage-4: 20;
+    --slice-percentage-5: 20;
+}
+
+.x-box {
+    width: var(--chart-size);
+    height: 50vh;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+
+    background: repeating-conic-gradient(from 0deg,
+            #f1ce7e 0deg calc(3.6deg * var(--slice-percentage-1)),
+            #6994fe calc(3.6deg * var(--slice-percentage-1)) calc(3.6deg * calc(var(--slice-percentage-1) + var(--slice-percentage-2))),
+            #5fcda4 calc(3.6deg * calc(var(--slice-percentage-1) + var(--slice-percentage-2))) calc(3.6deg * calc(var(--slice-percentage-1) + var(--slice-percentage-2) + var(--slice-percentage-3))),
+            #ea7288 calc(3.6deg * calc(var(--slice-percentage-1) + var(--slice-percentage-2) + var(--slice-percentage-3))) calc(3.6deg * calc(var(--slice-percentage-1) + var(--slice-percentage-2) + var(--slice-percentage-3) + var(--slice-percentage-4))),
+            #53d8d8 calc(3.6deg * calc(var(--slice-percentage-1) + var(--slice-percentage-2) + var(--slice-percentage-3) + var(--slice-percentage-4))) calc(3.6deg * calc(var(--slice-percentage-1) + var(--slice-percentage-2) + var(--slice-percentage-3) + var(--slice-percentage-4) + var(--slice-percentage-5))));
+}
+
+.x-box-cont {
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.x-box-cont h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.x-box-cont strong {
+    display: flex;
+    margin-bottom: 15px;
+    color: white;
+}
+
+strong {
+    display: flex;
+    align-items: center;
+}
+
+.excelente::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #f1ce7e;
+    margin-right: 10px;
+}
+
+.bom::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #6994fe;
+    margin-right: 10px;
+}
+
+.neutro::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #5fcda4;
+    margin-right: 10px;
+}
+
+.ruim::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ea7288;
+    margin-right: 10px;
+}
+
+.pessimo::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #53d8d8;
+    margin-right: 10px;
+}
+
+strong:hover::before {
+    content: attr(data-info); /* Exibe o atributo data-info como conteúdo */
+    display: block;
+    margin-left: 10px; /* Espaço entre a legenda e as informações adicionais */
+    font-size: 14px; /* Tamanho do texto das informações adicionais */
+    color: white; /* Cor do texto das informações adicionais */
+  }
