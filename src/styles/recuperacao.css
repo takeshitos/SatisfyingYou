@@ -1,3 +1,10 @@
+* {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Averia Libre;
+}
+
 body {
     background: #372775;
 }
@@ -7,16 +14,116 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 2% 3%;
+    padding: 0% 2%;
+}
+
+main{
+    margin-top: 15px;
+}
+
+#main-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-box{
+    text-align: center;
+    box-sizing: border-box;
+    width: 850px;
+    height: 680px;
+    left: 586px;
+    top: 242px;
+    border: 1px solid #737373;
+    border-radius: 15px;
 }
 
 #logo-title {
     color: #FFF;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #logo {
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+
+.login-info {
+    color: #3F92C5;
+    font-size: 24px;
+    line-height: 21px;
+    width: 90%;
+    height: 49px;
+    left: 327px;
+    background: #FFFFFF;
+    text-indent: 10px;
+}
+
+#main-rotulo{
+    font-size: 35px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+#texto-rotulo{
+    font-size: 27px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+label{
+    margin-top: 30px;
+    margin-bottom: 3px;
+    text-align: left;
+    font-size: 35px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 90%;
+}
+
+.botao-recuperar {
+    font-size: 24px;
+    color:#FFF;
+    box-sizing: border-box;
+    width: 190px;
+    height: 52px;
+    background: #49B976;
+    border: 1px solid #37BD6D;
+    border-radius: 10px;
+    margin-left: 550px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+#text-invalido{
+    font-size: 24px;
+    line-height: 19px;  
+    color: #FD7979;
+}
+
+#rec-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 39px;
+    margin-right: 39px;
+}
+
+#rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin-left: 25px;
 }
