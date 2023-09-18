@@ -1,3 +1,10 @@
+* {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Averia Libre;
+}
+
 body {
     background: #372775;
 }
@@ -7,7 +14,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 2% 3%;
+    padding: 0% 2%;
 }
 
 main{
@@ -37,6 +44,7 @@ main{
 }
 
 #logo {
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -45,9 +53,6 @@ main{
 .login-info {
     color: #3F92C5;
     font-size: 24px;
-    font-family: 'Averia Libre';
-    font-style: normal;
-    font-weight: 400;
     line-height: 21px;
     width: 90%;
     height: 49px;
@@ -57,9 +62,6 @@ main{
 }
 
 .rec-password {
-    font-family: 'Averia Libre';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 21px;
     text-align: center;
@@ -68,10 +70,6 @@ main{
 }
 
 #main-rotulo{
-    text-align: center;
-    font-family: 'Averia Libre';
-    font-style: normal;
-    font-weight: 400;
     font-size: 35px;
     line-height: 29px;
     color: #FFFFFF;
@@ -89,9 +87,6 @@ label{
     margin-top: 30px;
     margin-bottom: 3px;
     text-align: left;
-    font-family: 'Averia Libre';
-    font-style: normal;
-    font-weight: 400;
     font-size: 35px;
     line-height: 29px;
     color: #FFFFFF;
@@ -99,9 +94,6 @@ label{
 }
 
 .criar-conta{
-    font-family: 'Averia Libre';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     text-align: center;
@@ -110,8 +102,6 @@ label{
 }
 
 .botao-entrar {
-    font-family: 'Averia Libre';
-    font-style: normal;
     font-size: 24px;
     color:#FFF;
     box-sizing: border-box;
@@ -125,9 +115,6 @@ label{
 }
 
 #text-invalido{
-    font-family: 'Averia Libre';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 19px;  
     color: #FD7979;
