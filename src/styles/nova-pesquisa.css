@@ -1,0 +1,143 @@
+* {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Averia Libre;
+}
+
+body {
+    background: #372775;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 1%;
+
+}
+
+main{
+    margin-top: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 90%;
+}
+
+
+#logo-title {
+    color: #FFF;
+    font-size: 40px;
+}
+
+#botao-sair {
+    color: #3F92C5;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#main-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pesquisa-box{
+    text-align: center;
+    box-sizing: border-box;
+    width: 690px;
+    height: 630px;
+    border: 1px solid #737373;
+    border-radius: 15px;
+}
+
+.pesquisa-info {
+    color: #3F92C5;
+    font-size: 25px;
+    line-height: 21px;
+    width: 90%;
+    height: 49px;
+    left: 327px;
+    background: #FFFFFF;
+    text-indent: 10px;
+}
+
+#imagem{
+    display: flex;
+    height: 160px;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: 33px;
+}
+
+#main-rotulo{
+    font-size: 30px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 55px;
+}
+
+#rodape{
+    height: 189px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+
+}
+
+.botao-entrar {
+    margin-right: 33px;
+    font-size: 25px;
+    color:#FFF;
+    box-sizing: border-box;
+    width: 170px;
+    height: 52px;
+    left: 618px;
+    top: 494px;
+    background: #49B976;
+    border: 1px solid #37BD6D;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+#botao-imagem{
+    font-size: 23px;
+    color:#FFF;
+    box-sizing: border-box;
+    width: 170px;
+    height: 52px;
+    background: #49B976;
+    border: 1px solid #37BD6D;
+    cursor:pointer;
+}
+
+#input-imagem{
+    background-color: #372775;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
