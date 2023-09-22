@@ -5,6 +5,11 @@
     font-family: Averia Libre;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
 a {
     text-decoration: none;
   }
@@ -44,6 +49,15 @@ label{
     width: 90%;
 }
 
+#apagar-pesquisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-lixo {
+    width: 18px;
+}
 
 #logo-title {
     color: #FFF;
